@@ -12,6 +12,8 @@
 		04FB327B22B99A3D00DEE936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB327922B99A3D00DEE936 /* Main.storyboard */; };
 		04FB327D22B99A3E00DEE936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FB327C22B99A3E00DEE936 /* Assets.xcassets */; };
 		04FB328022B99A3E00DEE936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FB327E22B99A3E00DEE936 /* LaunchScreen.storyboard */; };
+		04FB328822B99C0800DEE936 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FB328722B99C0800DEE936 /* CardView.xib */; };
+		04FB328A22B99C7F00DEE936 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FB328922B99C7F00DEE936 /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		04FB327C22B99A3E00DEE936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04FB327F22B99A3E00DEE936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04FB328122B99A3E00DEE936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FB328722B99C0800DEE936 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		04FB328922B99C7F00DEE936 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				04FB327522B99A3D00DEE936 /* AppDelegate.swift */,
 				04FB327722B99A3D00DEE936 /* ViewController.swift */,
+				04FB328922B99C7F00DEE936 /* CardViewController.swift */,
+				04FB328722B99C0800DEE936 /* CardView.xib */,
 				04FB327922B99A3D00DEE936 /* Main.storyboard */,
 				04FB327C22B99A3E00DEE936 /* Assets.xcassets */,
 				04FB327E22B99A3E00DEE936 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			files = (
 				04FB328022B99A3E00DEE936 /* LaunchScreen.storyboard in Resources */,
 				04FB327D22B99A3E00DEE936 /* Assets.xcassets in Resources */,
+				04FB328822B99C0800DEE936 /* CardView.xib in Resources */,
 				04FB327B22B99A3D00DEE936 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				04FB327822B99A3D00DEE936 /* ViewController.swift in Sources */,
 				04FB327622B99A3D00DEE936 /* AppDelegate.swift in Sources */,
+				04FB328A22B99C7F00DEE936 /* CardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
